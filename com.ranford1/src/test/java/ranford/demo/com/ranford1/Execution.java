@@ -1,0 +1,98 @@
+package ranford.demo.com.ranford1;
+
+
+
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class Execution extends Repository{
+	@BeforeSuite
+	
+	public static void m1()
+	{
+		System.out.println("BeforeSuite");
+	}
+	@BeforeClass
+	public static void m2()
+	{
+		System.out.println("BeforeClass");
+	}
+	@BeforeMethod
+	public static void m3()
+	{
+		System.out.println("BeforeMethod");
+	}
+	@BeforeTest
+	public static void m4()
+	{
+		System.out.println("BeforeTest");
+	}
+	@Test
+	public static void m5()
+	{
+		System.out.println("Test1");
+	}
+	@Test
+	public static void m9()
+	{
+		System.out.println("Test2");
+	}
+	@AfterMethod
+	public static void m6()
+	{
+		System.out.println("AfterMethod");
+	}
+	@AfterTest
+	public static void m7()
+	{
+		System.out.println("AfterTest");
+	}
+	@AfterSuite
+	public static void m8()
+	{
+		System.out.println("AfterSute");
+	}
+	@Test(priority=1)
+	public void verify_launch() 
+	{  
+		launch();
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		driver.close();
+	}
+	@Test(priority=2)
+	public void verify_login() 
+	{  
+		login();
+		try {
+			Thread.sleep(300);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		//driver.close();
+		
+	}
+	@Test(priority=3)
+	public void verify_brachcreation() throws InterruptedException
+	{
+		Thread.sleep(300);
+		branchCreation();
+	}
+	
+	
+	
+	}
+	
+
