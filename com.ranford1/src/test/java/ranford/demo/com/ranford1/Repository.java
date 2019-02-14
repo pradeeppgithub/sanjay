@@ -36,11 +36,13 @@ public class Repository extends Base {
         
 	}
 	
-	public  void login()
+	public  void login(String username, String password)
 	{
 		launch();
-		LoginPage.username_editbox().sendKeys(getConfig("username_build2"));
-		LoginPage.password_editbox().sendKeys(getConfig("password_build2"));
+		//LoginPage.username_editbox().sendKeys(getConfig("username_build2"));
+		LoginPage.username_editbox().sendKeys(username);
+		//LoginPage.password_editbox().sendKeys(getConfig("password_build2"));
+		LoginPage.password_editbox().sendKeys(password);
         LoginPage.login_button().click();	
         if(Library.IsTitlePresent(getConfig("loginexptitle")))
         	{
@@ -79,5 +81,5 @@ public class Repository extends Base {
 		BranchCreation.address_field().sendKeys(getConfig("address"));
 		BranchCreation.zip_code().sendKeys(getConfig("zipcode"));
 	}
-
+	
 }

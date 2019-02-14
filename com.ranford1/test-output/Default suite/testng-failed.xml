@@ -7,11 +7,11 @@
         <methods>
           <include name="m8"/>
           <include name="m6"/>
-          <include name="verify_brachcreation"/>
           <include name="m4"/>
           <include name="m1"/>
           <include name="m2"/>
           <include name="m7"/>
+          <include name="verify_excellogin"/>
           <include name="m3"/>
         </methods>
       </class> <!-- ranford.demo.com.ranford1.Execution -->

@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
     <line>
       <![CDATA[Launch test is pass because my actual url: http://srssprojects.in/ is same as my exptected url: http://srssprojects.in/]]>
+    </line>
+    <line>
+      <![CDATA[Login test is fail because my actual title: KEXIM BANK is not mathcing with my expected url]]>
+    </line>
+    <line>
+      <![CDATA[Launch test is pass because my actual url: http://srssprojects.in/ is same as my exptected url: http://srssprojects.in/]]>
+    </line>
+    <line>
+      <![CDATA[Login test is fail because my actual title: KEXIM BANK is not mathcing with my expected url]]>
+    </line>
+    <line>
+      <![CDATA[Launch test is pass because my actual url: http://srssprojects.in/ is same as my exptected url: http://srssprojects.in/]]>
+    </line>
+    <line>
+      <![CDATA[Login test is fail because my actual title: KEXIM BANK is not mathcing with my expected url]]>
+    </line>
+    <line>
+      <![CDATA[Launch test is pass because my actual url: http://srssprojects.in/ is same as my exptected url: http://srssprojects.in/]]>
+    </line>
+    <line>
+      <![CDATA[Login test is fail because my actual title: KEXIM BANK is not mathcing with my expected url]]>
     </line>
     <line>
       <![CDATA[Launch test is pass because my actual url: http://srssprojects.in/ is same as my exptected url: http://srssprojects.in/]]>
@@ -11,67 +32,52 @@
       <![CDATA[Login test is fail because my actual title: KEXIM BANK is not mathcing with my expected url]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32773" started-at="2019-02-11T10:42:24Z" finished-at="2019-02-11T10:42:57Z">
+  <suite name="Default suite" duration-ms="65142" started-at="2019-02-14T03:02:55Z" finished-at="2019-02-14T03:04:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32773" started-at="2019-02-11T10:42:24Z" finished-at="2019-02-11T10:42:57Z">
+    <test name="Default test" duration-ms="65142" started-at="2019-02-14T03:02:55Z" finished-at="2019-02-14T03:04:00Z">
       <class name="ranford.demo.com.ranford1.Execution">
-        <test-method status="PASS" signature="m1()[pri:0, instance:ranford.demo.com.ranford1.Execution@4501b7af]" name="m1" is-config="true" duration-ms="35" started-at="2019-02-11T10:42:24Z" finished-at="2019-02-11T10:42:24Z">
+        <test-method status="PASS" signature="m1()[pri:0, instance:ranford.demo.com.ranford1.Execution@29774679]" name="m1" is-config="true" duration-ms="32" started-at="2019-02-14T03:02:55Z" finished-at="2019-02-14T03:02:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
-        <test-method status="PASS" signature="m4()[pri:0, instance:ranford.demo.com.ranford1.Execution@4501b7af]" name="m4" is-config="true" duration-ms="1" started-at="2019-02-11T10:42:24Z" finished-at="2019-02-11T10:42:24Z">
+        <test-method status="PASS" signature="m4()[pri:0, instance:ranford.demo.com.ranford1.Execution@29774679]" name="m4" is-config="true" duration-ms="0" started-at="2019-02-14T03:02:55Z" finished-at="2019-02-14T03:02:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m4 -->
-        <test-method status="PASS" signature="m2()[pri:0, instance:ranford.demo.com.ranford1.Execution@4501b7af]" name="m2" is-config="true" duration-ms="0" started-at="2019-02-11T10:42:24Z" finished-at="2019-02-11T10:42:24Z">
+        <test-method status="PASS" signature="m2()[pri:0, instance:ranford.demo.com.ranford1.Execution@29774679]" name="m2" is-config="true" duration-ms="0" started-at="2019-02-14T03:02:55Z" finished-at="2019-02-14T03:02:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m2 -->
-        <test-method status="PASS" signature="m3()[pri:0, instance:ranford.demo.com.ranford1.Execution@4501b7af]" name="m3" is-config="true" duration-ms="2" started-at="2019-02-11T10:42:24Z" finished-at="2019-02-11T10:42:24Z">
+        <test-method status="PASS" signature="m3()[pri:0, instance:ranford.demo.com.ranford1.Execution@29774679]" name="m3" is-config="true" duration-ms="1" started-at="2019-02-14T03:02:55Z" finished-at="2019-02-14T03:02:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m3 -->
-        <test-method status="PASS" signature="m5()[pri:0, instance:ranford.demo.com.ranford1.Execution@4501b7af]" name="m5" duration-ms="20" started-at="2019-02-11T10:42:24Z" finished-at="2019-02-11T10:42:24Z">
+        <test-method status="PASS" signature="m5()[pri:0, instance:ranford.demo.com.ranford1.Execution@29774679]" name="m5" duration-ms="14" started-at="2019-02-14T03:02:55Z" finished-at="2019-02-14T03:02:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m5 -->
-        <test-method status="PASS" signature="m6()[pri:0, instance:ranford.demo.com.ranford1.Execution@4501b7af]" name="m6" is-config="true" duration-ms="1" started-at="2019-02-11T10:42:24Z" finished-at="2019-02-11T10:42:24Z">
+        <test-method status="PASS" signature="m6()[pri:0, instance:ranford.demo.com.ranford1.Execution@29774679]" name="m6" is-config="true" duration-ms="1" started-at="2019-02-14T03:02:55Z" finished-at="2019-02-14T03:02:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m6 -->
-        <test-method status="PASS" signature="m3()[pri:0, instance:ranford.demo.com.ranford1.Execution@4501b7af]" name="m3" is-config="true" duration-ms="1" started-at="2019-02-11T10:42:24Z" finished-at="2019-02-11T10:42:24Z">
+        <test-method status="PASS" signature="m3()[pri:0, instance:ranford.demo.com.ranford1.Execution@29774679]" name="m3" is-config="true" duration-ms="1" started-at="2019-02-14T03:02:55Z" finished-at="2019-02-14T03:02:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m3 -->
-        <test-method status="PASS" signature="m9()[pri:0, instance:ranford.demo.com.ranford1.Execution@4501b7af]" name="m9" duration-ms="6" started-at="2019-02-11T10:42:24Z" finished-at="2019-02-11T10:42:24Z">
+        <test-method status="PASS" signature="m9()[pri:0, instance:ranford.demo.com.ranford1.Execution@29774679]" name="m9" duration-ms="4" started-at="2019-02-14T03:02:55Z" finished-at="2019-02-14T03:02:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m9 -->
-        <test-method status="PASS" signature="m6()[pri:0, instance:ranford.demo.com.ranford1.Execution@4501b7af]" name="m6" is-config="true" duration-ms="1" started-at="2019-02-11T10:42:24Z" finished-at="2019-02-11T10:42:24Z">
+        <test-method status="PASS" signature="m6()[pri:0, instance:ranford.demo.com.ranford1.Execution@29774679]" name="m6" is-config="true" duration-ms="0" started-at="2019-02-14T03:02:55Z" finished-at="2019-02-14T03:02:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m6 -->
-        <test-method status="PASS" signature="m3()[pri:0, instance:ranford.demo.com.ranford1.Execution@4501b7af]" name="m3" is-config="true" duration-ms="0" started-at="2019-02-11T10:42:24Z" finished-at="2019-02-11T10:42:24Z">
+        <test-method status="PASS" signature="m3()[pri:0, instance:ranford.demo.com.ranford1.Execution@29774679]" name="m3" is-config="true" duration-ms="4" started-at="2019-02-14T03:02:55Z" finished-at="2019-02-14T03:02:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m3 -->
-        <test-method status="PASS" signature="verify_launch()[pri:1, instance:ranford.demo.com.ranford1.Execution@4501b7af]" name="verify_launch" duration-ms="11083" started-at="2019-02-11T10:42:24Z" finished-at="2019-02-11T10:42:35Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Launch test is pass because my actual url: http://srssprojects.in/ is same as my exptected url: http://srssprojects.in/]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verify_launch -->
-        <test-method status="PASS" signature="m6()[pri:0, instance:ranford.demo.com.ranford1.Execution@4501b7af]" name="m6" is-config="true" duration-ms="0" started-at="2019-02-11T10:42:35Z" finished-at="2019-02-11T10:42:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- m6 -->
-        <test-method status="PASS" signature="m3()[pri:0, instance:ranford.demo.com.ranford1.Execution@4501b7af]" name="m3" is-config="true" duration-ms="1" started-at="2019-02-11T10:42:35Z" finished-at="2019-02-11T10:42:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- m3 -->
-        <test-method status="PASS" signature="verify_login()[pri:2, instance:ranford.demo.com.ranford1.Execution@4501b7af]" name="verify_login" duration-ms="13787" started-at="2019-02-11T10:42:35Z" finished-at="2019-02-11T10:42:49Z">
+        <test-method status="PASS" signature="verify_excellogin()[pri:1, instance:ranford.demo.com.ranford1.Execution@29774679]" name="verify_excellogin" duration-ms="65046" started-at="2019-02-14T03:02:55Z" finished-at="2019-02-14T03:04:00Z">
           <reporter-output>
             <line>
               <![CDATA[Launch test is pass because my actual url: http://srssprojects.in/ is same as my exptected url: http://srssprojects.in/]]>
@@ -79,29 +85,41 @@
             <line>
               <![CDATA[Login test is fail because my actual title: KEXIM BANK is not mathcing with my expected url]]>
             </line>
+            <line>
+              <![CDATA[Launch test is pass because my actual url: http://srssprojects.in/ is same as my exptected url: http://srssprojects.in/]]>
+            </line>
+            <line>
+              <![CDATA[Login test is fail because my actual title: KEXIM BANK is not mathcing with my expected url]]>
+            </line>
+            <line>
+              <![CDATA[Launch test is pass because my actual url: http://srssprojects.in/ is same as my exptected url: http://srssprojects.in/]]>
+            </line>
+            <line>
+              <![CDATA[Login test is fail because my actual title: KEXIM BANK is not mathcing with my expected url]]>
+            </line>
+            <line>
+              <![CDATA[Launch test is pass because my actual url: http://srssprojects.in/ is same as my exptected url: http://srssprojects.in/]]>
+            </line>
+            <line>
+              <![CDATA[Login test is fail because my actual title: KEXIM BANK is not mathcing with my expected url]]>
+            </line>
+            <line>
+              <![CDATA[Launch test is pass because my actual url: http://srssprojects.in/ is same as my exptected url: http://srssprojects.in/]]>
+            </line>
+            <line>
+              <![CDATA[Login test is fail because my actual title: KEXIM BANK is not mathcing with my expected url]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- verify_login -->
-        <test-method status="PASS" signature="m6()[pri:0, instance:ranford.demo.com.ranford1.Execution@4501b7af]" name="m6" is-config="true" duration-ms="1" started-at="2019-02-11T10:42:49Z" finished-at="2019-02-11T10:42:49Z">
+        </test-method> <!-- verify_excellogin -->
+        <test-method status="PASS" signature="m6()[pri:0, instance:ranford.demo.com.ranford1.Execution@29774679]" name="m6" is-config="true" duration-ms="0" started-at="2019-02-14T03:04:00Z" finished-at="2019-02-14T03:04:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m6 -->
-        <test-method status="PASS" signature="m3()[pri:0, instance:ranford.demo.com.ranford1.Execution@4501b7af]" name="m3" is-config="true" duration-ms="1" started-at="2019-02-11T10:42:49Z" finished-at="2019-02-11T10:42:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- m3 -->
-        <test-method status="PASS" signature="verify_brachcreation()[pri:3, instance:ranford.demo.com.ranford1.Execution@4501b7af]" name="verify_brachcreation" duration-ms="7754" started-at="2019-02-11T10:42:49Z" finished-at="2019-02-11T10:42:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_brachcreation -->
-        <test-method status="PASS" signature="m6()[pri:0, instance:ranford.demo.com.ranford1.Execution@4501b7af]" name="m6" is-config="true" duration-ms="0" started-at="2019-02-11T10:42:57Z" finished-at="2019-02-11T10:42:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- m6 -->
-        <test-method status="PASS" signature="m7()[pri:0, instance:ranford.demo.com.ranford1.Execution@4501b7af]" name="m7" is-config="true" duration-ms="0" started-at="2019-02-11T10:42:57Z" finished-at="2019-02-11T10:42:57Z">
+        <test-method status="PASS" signature="m7()[pri:0, instance:ranford.demo.com.ranford1.Execution@29774679]" name="m7" is-config="true" duration-ms="0" started-at="2019-02-14T03:04:00Z" finished-at="2019-02-14T03:04:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m7 -->
-        <test-method status="PASS" signature="m8()[pri:0, instance:ranford.demo.com.ranford1.Execution@4501b7af]" name="m8" is-config="true" duration-ms="1" started-at="2019-02-11T10:42:57Z" finished-at="2019-02-11T10:42:57Z">
+        <test-method status="PASS" signature="m8()[pri:0, instance:ranford.demo.com.ranford1.Execution@29774679]" name="m8" is-config="true" duration-ms="1" started-at="2019-02-14T03:04:00Z" finished-at="2019-02-14T03:04:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m8 -->

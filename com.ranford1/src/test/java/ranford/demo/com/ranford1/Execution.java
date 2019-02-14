@@ -11,6 +11,8 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import Excel.Excelclass;
+
 public class Execution extends Repository{
 	@BeforeSuite
 	
@@ -58,8 +60,8 @@ public class Execution extends Repository{
 	{
 		System.out.println("AfterSute");
 	}
-	@Test(priority=1)
-	public void verify_launch() 
+/*	@Test(priority=1)
+    public void verify_launch() 
 	{  
 		launch();
 		try {
@@ -83,13 +85,28 @@ public class Execution extends Repository{
 		
 		//driver.close();
 		
+	}*/
+	@Test(priority=1)
+	public void verify_excellogin() 	{
+		try {
+			Thread.sleep(300);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		Excelclass.excelconnection("data.xls", "Sheet1");
+		for(int r=1;r<Excelclass.rowcount();r++)
+		{
+			String username = Excelclass.readdata(0, r);
+			String password = Excelclass.readdata(1, r);
+			login(username,password);
+			driver.close();
+		}
+		
+	
 	}
-	@Test(priority=3)
-	public void verify_brachcreation() throws InterruptedException
-	{
-		Thread.sleep(300);
-		branchCreation();
-	}
+
+	
 	
 	
 	
