@@ -2,6 +2,7 @@ package ranford.demo.com.ranford1;
 
 
 
+import org.openqa.selenium.By;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
@@ -95,13 +96,38 @@ public class Execution extends Repository{
 			e.printStackTrace();
 		}
 		Excelclass.excelconnection("data.xls", "Sheet1");
+		Excelclass.outputexcelconnection("data.xls", "output.xls", "Sheet1");
 		for(int r=1;r<Excelclass.rowcount();r++)
 		{
 			String username = Excelclass.readdata(0, r);
 			String password = Excelclass.readdata(1, r);
 			login(username,password);
+		
+			String actualtitle = driver.getTitle();
+			String expectedtitle = "KEXIM BANK";
+			
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			//driver.findElement(By.xpath("//img[@src='images/admin_but_03.jpg']")).click();
 			driver.close();
+			if (actualtitle.contains(expectedtitle))
+			{
+				Excelclass.writedata(2, r, "Test Passed");
+			} else if(!(actualtitle.contains(expectedtitle)))
+			{
+				Excelclass.writedata(2, r, "Test failed");
+			} else
+			{
+				Excelclass.writedata(2, r, "Invalid Data");
+				
+			}
+		
 		}
+		Excelclass.saveworkbook();
 		
 	
 	}
